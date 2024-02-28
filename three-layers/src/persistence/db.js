@@ -1,4 +1,4 @@
-export const db = [
+export const rooms = [
   {
     id: 'a',
     number: 101,
@@ -72,3 +72,5 @@ export const db = [
       '1 king size bed - Wi-Fi - private bathroom - wheelchair accessible'
   }
 ];
+
+export const bookings = [];
