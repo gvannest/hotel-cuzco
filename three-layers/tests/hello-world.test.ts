@@ -1,8 +1,8 @@
 import { describe, expect, it } from '@jest/globals';
-import { HelloWorld } from 'three-layers/src/hello-world';
+import { main } from 'three-layers/src/main.ts';
 
 describe('Hello World!', () => {
   it('doit retourner "Hello World!"', () => {
-    expect(HelloWorld()).toEqual('Hello World!');
+    expect(main()).toEqual('Hello World!');
   });
 });
